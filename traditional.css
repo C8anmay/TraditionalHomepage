@@ -1,0 +1,54 @@
+body{}
+h1{
+	color:yellow;
+	font-family:serif;
+	font-size:200%;
+	width:730px;
+		
+}
+
+button{
+	display: inline-block;
+	padding: 15px 25px;
+	font-size:24px;
+	cursor:pointer;
+	text-align:center;
+	text-decoration:none;
+	outline:none;
+	font-family:Copperplate;
+	color:red;
+	background-color:#ffff00;
+	border:none;
+	border-radius:15px;
+	box-shadow: 0 9px #999;
+}
+button:hover{
+		background-color:#bfff00;
+}
+button:active{
+	background-color:#bfff00;
+	box-shadow: 0 1px #666;
+	transform:translateY(2px);
+}
+form{
+	float:right;
+    color:yellow;
+}
+div {
+  width: 90px;
+  height: 30px;
+  padding: 25px 10px;
+  position: relative;
+  animation: mymove 30s infinite;
+
+ }
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 700px;}
+}
